@@ -1,0 +1,29 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "prisma:migrate": "prisma migrate dev --skip-seed",
+    "prisma:generate": "prisma generate",
+    "migrate": "prisma migrate dev --name"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@nuxt/types": "^2.17.0",
+    "@nuxt/typescript-build": "^3.0.1",
+    "@types/node": "^18",
+    "nuxt": "^3.6.1",
+    "prisma": "^4.16.2",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.16.2",
+    "axios": "^1.4.0",
+    "cors": "^2.8.5",
+    "ts-node": "^10.9.1"
+  }
+}
